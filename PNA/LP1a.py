@@ -18,7 +18,7 @@ def wyznacz_pierwsze(liczba):
     return
 
 
-m = 10000
+m = int(input("Zakres: "))
 wyznacz_pierwsze(m)
 print(pierwsze)
 print("Ilość wystąpień liczb pierwszych w zakresie do", m, ":", (len(pierwsze)))

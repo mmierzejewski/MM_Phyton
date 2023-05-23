@@ -12,7 +12,7 @@ def pna(n):
     return [x for x in range(n + 1) if primes[x]]
 
 
-m = 100000000
+m = int(input("Range: "))
 n = "{:,}".format(m)
 t1 = datetime.now()
 print('Prime number range to:', n)
