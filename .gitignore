@@ -1,5 +1,3 @@
-
+.vscode
 .DS_Store
-*.xml
-*.iml
-*.xml
+.idea
