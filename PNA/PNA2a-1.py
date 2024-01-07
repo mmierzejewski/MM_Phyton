@@ -20,7 +20,7 @@ print('Start:', t1)
 apn = len(pna(m))
 fapn = "{:,}".format(apn)
 print('Amount of prime numbers in the range from 2 to', n, ':', fapn)
-print('Percent PNA in range', apn/m*100)
+print('Percent PNA in range:', apn/m*100)
 t2 = datetime.now()
 at = t2 - t1
 print('Amount stop:', t2)
