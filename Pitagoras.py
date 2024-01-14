@@ -21,7 +21,8 @@ def pitn(n):
 t1 = datetime.now()
 print('Start:', t1)
 
-for n in pitn(1000):
+limit = int(input("Podaj wartość limitu: "))
+for n in pitn(limit):
     print(n)
 
 t2 = datetime.now()
