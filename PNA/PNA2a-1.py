@@ -25,13 +25,3 @@ t2 = datetime.now()
 at = t2 - t1
 print('Amount stop:', t2)
 print('Amount time:', at)
-# hpn = max(pna(m))
-# fhpn = "{:,}".format(hpn)
-# print('The highest prime number in that range to', n, 'is', fhpn)
-# t3 = datetime.now()
-# tht = t3 - t2
-# print('The highest stop:', t3)
-# print('The highest time:', tht)
-# print('Stop:', t3)
-# a = t3 - t1
-# print('Time of counting everything:', a)
